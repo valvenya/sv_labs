@@ -1,0 +1,49 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\metrotek\lab1
+vserializer
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 !s100 P?>_[KbDM]<K=>ijUXgS42
+Z3 IiCV4z@EIYB4?VSOJ5hcC?0
+Z4 Vg0Rjn5cPTS27G60UD7e6[1
+Z5 !s105 serializer_sv_unit
+S1
+Z6 dD:\metrotek\lab1
+Z7 w1610320086
+Z8 8rtl/serializer.sv
+Z9 Frtl/serializer.sv
+L0 1
+Z10 OV;L;10.1d;51
+r1
+31
+Z11 !s90 -reportprogress|300|-sv|rtl/serializer.sv|
+Z12 o-sv -O0
+!i10b 1
+!s85 0
+Z13 !s108 1610320108.548000
+Z14 !s107 rtl/serializer.sv|
+!s101 -O0
+vtest
+R1
+!i10b 1
+!s100 DNRQUV@k^1edCdW6Bk0S?3
+IlCBfFPUAh<<G1G7[;OC`90
+Z15 Vk<3<[f=78GX=_HO53D;7>3
+Z16 !s105 test_sv_unit
+S1
+R6
+w1610320034
+Z17 8tb/test.sv
+Z18 Ftb/test.sv
+L0 1
+R10
+r1
+!s85 0
+31
+!s108 1610320108.617000
+!s107 tb/test.sv|
+Z19 !s90 -reportprogress|300|-sv|tb/test.sv|
+!s101 -O0
+R12
