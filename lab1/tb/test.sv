@@ -10,8 +10,6 @@ initial
     forever
         #5 clk = !clk;
 
-assign srst = 1'b0;
-
 serializer DUT (
     .clk_i ( clk ),
     .srst_i ( srst ),
@@ -21,6 +19,7 @@ serializer DUT (
 );
 
 initial begin
+    srst <= 1'b0;
     data <= '0;
     data_mod <= '0;
     data_val <= 1'b0;
@@ -33,6 +32,20 @@ initial begin
     data <= '0;
     data_mod <= '0;
     data_val <= 1'b0;
+    #160
+    @( posedge clk );
+    data <= '1;
+    data_mod <= 11;
+    data_val <= 1'b1;
+    @( posedge clk );
+    data <= '0;
+    data_mod <= '0;
+    data_val <= 1'b0;
+    #40
+    @( posedge clk );
+    srst <= 1'b1;
+    @( posedge clk );
+    srst <= 1'b0;
 end
 
 endmodule
